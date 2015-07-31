@@ -22,6 +22,13 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func CreateHost(sender: NSButton) {
+        println("Hello, world")
+    }
+
+    @IBAction func CreateClient(sender: AnyObject) {
+        println("Do play client!")
+    }
+    
 
 }
-
